@@ -22,15 +22,36 @@ The wireless Radio is simulated as Queues (q_class.py).
 
 How to run:
 >>python simulate.py
+
 ...
+
 ...
+
 ...
+
+
 >>Do you want to start data transmission?
-y
+
+Y
+
 >>Enter the node number to start transmission
-15        //Enter any node number
->>Enter the time duration for running the simulation 
-10       //Represents the factor of simulation time ticks. 
+
+15  
+
+>>Enter the time duration for running the simulation (represents a factor of simulation time ticks) 
+
+10       
+
+...
+
+...
+
+>>pending on the queue
+
+>>pending on the queue
+
+
+>>^Z
 
 After simulation, the queue becomes empty but the sink still keeps pending on the queue. 
 Press Ctrl+Z to stop.
